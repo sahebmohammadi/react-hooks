@@ -3,7 +3,7 @@ import useFetch from "./hook/useFetch";
 
 function App() {
   const { error, loading, data } = useFetch(
-    "https://jsonplaceholder.typicode.com/ussdsers"
+    "https://jsonplaceholder.typicode.com/users"
   );
 
   return (
